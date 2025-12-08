@@ -1,7 +1,9 @@
 # Tasks
 
-- [x] Identify MCU (SONiX SN32F248B/Huafenda HFD2201KBA)
-- [x] Get stock firmware (tested and verified with SONiX USB MCU ISP Tool)
+- [x] Identify MCU (Huafenda HFD2201KBA/SONiX SN32F248B)
+- [X] Get datasheet
+- [x] Get stock firmware
+- [X] Flashing the keyboard with stock firmware (Using Sonix Keyboard Flasher/SONiX USB MCU ISP Tool) both tested and verified
 - [ ] Find SDK
 - [ ] Getting SWD to function
 - [ ] Compiling/getting QMK to work
