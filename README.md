@@ -23,7 +23,7 @@ https://www.sonix.com.tw/article-en-4336-30356
 
 Below the HFD2201KBA MCU there are two testing holes marked in white. Shorting these two holes with a metal paperclip while plugging in the device brings it into bootloader mode. The RK918 will show up as 0c45:7040, and as an "SN32F248B (bootloader)" in Sonix Keyboard Flasher. You can use this as a last resort option if the firmware on the keyboard doesn't work with any of the SONiX tools provided.
 
-Additionally, the bootloader on these keyboards are unbrickable, as the bootloader on these chips are stored in ROM (Read-Only Memory) on the MCU. Even if you flash a completely incompatible firmware on the board, the keyboard will still light up partially in different zones or play a connect sound once you plug it in. There won't be a VID/PID dependng on what firmware you currently have installed on the keyboard.
+Additionally, the bootloader on these keyboards are unbrickable, as the bootloader on these chips are stored in ROM (Read-Only Memory) on the MCU. Even if you flash a completely incompatible firmware on the board, the keyboard will still light up partially in different zones or play a connect sound once you plug it in. There won't be a VID/PID depending on what firmware you currently have installed on the keyboard.
 
 https://ibb.co/B2yBmkh8
 
