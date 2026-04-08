@@ -29,7 +29,7 @@ If there's any other variants of the RK918 that aren't listed below, please crea
 - [x] Get datasheet for both variants
 - [x] Get stock firmware for both variants
 - [x] Flashing the keyboard with stock firmware (Using Sonix Keyboard Flasher/SONiX USB MCU ISP Tool) both tested and verified for both variants
-- [ ] Getting SWD to function
+- [ ] Getting SWD to function  `no dedicated hardware tools yet :( `
 - [ ] Compiling QMK firmware for RK918
 
 # Pinout
