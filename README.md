@@ -38,7 +38,8 @@ The RK919/RK918 Rev1 uses a Huafenda HFD**2201**KBA microcontroller. Upon furthe
 
 The RK919/RK918 Rev2 uses a Huafenda HFD **1101**KBA microcontroller. Upon further inspection reveals that the HFD1101KBA is a rebranded SONiX SN32F248 *(non-B)* ARM Cortex-M0 based microcontroller. Same as Rev 1, the pinout is not yet known. 
 
-https://www.sonix.com.tw/article-en-4336-30356
+SN32F248**B**: https://www.sonix.com.tw/article-en-4336-30356
+SN32F248 **non-B**: https://www.sonix.com.tw/article-en-998-21395
 
 ![pin_diagram](https://github.com/user-attachments/assets/b59cad07-57a5-4e75-a8fa-95a17c7d9681)
 
