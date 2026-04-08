@@ -8,13 +8,10 @@ There seems to be two variants of the RK918. One is using the HFD2201KBA (rebran
 
 # Bootloader Mode USB Strings 
 
-------------------------------------------------
-|Model|     VID |PID |Bootloader PID|Rebrand MCU
-------------------------------------------------
-|RK918 Rev1|0c45|8006|7040          |SN32F248B |
-------------------------------------------------
-|RK918 Rev2|0c45|8006|7900          |SN32F248  |
-------------------------------------------------
+|      Device     |   VID  |   PID  | Bootloader PID | Rebrand MCU   |
+|-----------------|--------|-----------------------------------------|
+| RK918 Rev 1     | 0x0C45 | 0x8006 | 0x7040         | SN32F248B     |
+| RK918 Rev 2     | 0x0C45 | 0x8006 | 0x7900         | SN32F248      |
 
 # Tasks
 
