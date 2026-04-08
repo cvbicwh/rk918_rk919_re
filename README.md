@@ -6,6 +6,13 @@ Currently work in progress. This should work on both the RK918 and RK919, as the
 
 There seems to be two variants of the RK918. One is using the HFD2201KBA (rebrand of SN32F248B which I'm calling rev 1), and a newer variant using the HFD1101KBA (rebrand of SN32F248 non-B) (Rev 2). The only way to find out what MCU you have is by either disassembling your keyboard or looking at the model number and date underneath the space bar. Even if both variants are unbrickable and have a ROM-based bootloader, I would still be careful during flashing. I have extracted the stock firmwares from both revisions of the keyboard.
 
+# Model Number/Date
+
+| Device      | PCB Date   | Model Number  |
+|-------------|------------|---------------|
+| RK918 Rev 1 | 2018       | 130-91801-01  |
+| RK918 Rev 2 | 2021       | 130-91801-09  |
+
 # Bootloader Mode USB Strings 
 
 | Device      | VID    | PID    | Bootloader PID | Rebrand MCU |
