@@ -17,10 +17,10 @@ If there's any other variants of the RK918 that aren't listed below, please crea
 
 # Bootloader Mode USB Strings 
 
-| Device      | VID    | PID    | Bootloader PID | Rebrand MCU |
-|-------------|--------|--------|----------------|-------------|
-| RK918 Rev 1 | 0x0C45 | 0x8006 | 0x7040         | SN32F248B   |
-| RK918 Rev 2 | 0x0C45 | 0x8006 | 0x7900         | SN32F248    |
+| Device      | Revision  | VID    | PID    | Bootloader PID | Rebrand MCU |
+|-------------|-----------|--------|--------|----------------|-------------|
+| RK918/RK919 | 1         | 0x0C45 | 0x8006 | 0x7040         | SN32F248B   |
+| RK918/RK919 | 2         | 0x0C45 | 0x8006 | 0x7900         | SN32F248    |
 
 # Tasks
 
