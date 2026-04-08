@@ -24,16 +24,17 @@ If there's any other variants of the RK918 that aren't listed below, please crea
 
 # Tasks
 
-- [x] Identify MCU (Huafenda HFD2201KBA/SONiX SN32F248B)
-- [x] Get datasheet
-- [x] Get stock firmware
-- [x] Flashing the keyboard with stock firmware (Using Sonix Keyboard Flasher/SONiX USB MCU ISP Tool) both tested and verified
+- [x] Identify Rev1 MCU (Huafenda HFD2201KBA/SONiX SN32F248B)
+- [x] Identify Rev2 MCU (Huafenda HFD1101KBA/SONiX SN32F248)
+- [x] Get datasheet for both
+- [x] Get stock firmware for both
+- [x] Flashing the keyboard with stock firmware (Using Sonix Keyboard Flasher/SONiX USB MCU ISP Tool) both tested and verified for both revisions
 - [ ] Getting SWD to function
 - [ ] Compiling QMK firmware for RK918
 
 # Pinout
 
-The RK919/RK918 uses a Huafenda HFD2201KBA microcontroller. Upon further inspection reveals that the HFD2201KBA is a rebranded SONiX SN32F248B ARM Cortex-M0 based microcontroller. The pinout specifically for the RK918 is yet to be found, as I do not have a multimeter to probe the keyboard. You can find the pinout, along with the data sheet in the repository as shown below:
+The RK919/RK918 Rev1 uses a Huafenda HFD2201KBA microcontroller. Upon further inspection reveals that the HFD2201KBA is a rebranded SONiX SN32F248B ARM Cortex-M0 based microcontroller. The pinout specifically for the RK918 is yet to be found, as I do not have a multimeter to probe the keyboard. You can find the pinout, along with the data sheet in the repository as shown below:
 
 https://www.sonix.com.tw/article-en-4336-30356
 
