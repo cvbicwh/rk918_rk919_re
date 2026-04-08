@@ -4,7 +4,7 @@ Currently work in progress. This should work on both the RK918 and RK919, as the
 
 # NOTICE
 
-There seems to be two variants of the RK918. One is using the HFD2201KBA (rebrand of SN32F248B which I'm calling rev 1), and a newer variant using the HFD1101KBA (rebrand of SN32F248 non-B) (Rev 2). The only way to find out what MCU you have is by either disassembling your keyboard or looking at the model number and date underneath the space bar. Even if both variants are unbrickable and have a ROM-based bootloader, I would still be careful during flashing. I have extracted the stock firmwares from both revisions of the keyboard. Since I don't have a Rev2 board, I cannot verify any of the behaviors from this board, and was recently notified about this new variant.
+There seems to be two variants of the RK918 and RK919. One is using the HFD2201KBA (rebrand of SN32F248B which I'm calling rev 1), and a newer variant using the HFD1101KBA (rebrand of SN32F248 non-B) (Rev 2). Since these two have the exact same product strings, a complication can happen between the two variants. The only way to find out what MCU you have is by either disassembling your keyboard or looking at the model number and date underneath the space bar. Even if both variants are unbrickable and have a ROM-based bootloader, I would still be careful during flashing. I have extracted the stock firmwares from both revisions of the keyboard. Since I don't have a Rev2 board, I cannot verify any of the behaviors from this board, and was recently notified about this new variant.
 
 If there's any other variants of the RK918 that aren't listed below, please create an issue and I would be glad to add them!
 
@@ -74,8 +74,8 @@ https://ibb.co/8nrsK4jQ
 1. Download the SONiX USB MCU ISP Tool  
 2. Put the device into bootloader mode (you can use Sonix Flasher's **Reboot to Bootloader HFD** command)  
 3. Open the program, load the firmware `.bin` you just downloaded  
-4. Select **SN32F24xB** as the chip  
-5. The VID is `0c45` by default. When it's in bootloader the PID should either show up as `8006` or `7040` (usually `8006` if you're entering bootloader in normal mode)  
+4. Select **SN32F24xB** as the chip `The flashing protocol for 24xB and 24x seems to be identical.`  
+5. The VID is `0c45` by default. When it's in bootloader the PID should either show up as `8006` or `7040` (for Rev2 it's `7900`) (usually `8006` if you're entering bootloader in normal mode)  
 6. Change the PID based on what PID it shows up as on Device Manager/UsbTreeView  
 7. Click **Start**  
 8. Your keyboard will start flashing  
