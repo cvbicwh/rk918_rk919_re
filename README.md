@@ -34,7 +34,9 @@ If there's any other variants of the RK918 that aren't listed below, please crea
 
 # Pinout
 
-The RK919/RK918 Rev1 uses a Huafenda HFD2201KBA microcontroller. Upon further inspection reveals that the HFD2201KBA is a rebranded SONiX SN32F248B ARM Cortex-M0 based microcontroller. The pinout specifically for the RK918 is yet to be found, as I do not have a multimeter to probe the keyboard. You can find the pinout, along with the data sheet in the repository as shown below:
+The RK919/RK918 Rev1 uses a Huafenda HFD**2201**KBA microcontroller. Upon further inspection reveals that the HFD2201KBA is a rebranded SONiX SN32F248B ARM Cortex-M0 based microcontroller. The pinout specifically for the RK918 is yet to be found, as I do not have a multimeter to probe the keyboard. You can find the pinout, along with the data sheet in the repository as shown below:
+
+The RK919/RK918 Rev2 uses a Huafenda HFD **1101**KBA microcontroller. Upon further inspection reveals that the HFD1101KBA is a rebranded SONiX SN32F248 *(non-B)* ARM Cortex-M0 based microcontroller. Same as Rev 1, the pinout is not yet known. 
 
 https://www.sonix.com.tw/article-en-4336-30356
 
