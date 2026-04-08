@@ -38,7 +38,7 @@ The RK919/RK918 Rev1 uses a Huafenda HFD2201KBA microcontroller. Upon further in
 
 https://www.sonix.com.tw/article-en-4336-30356
 
-<img width="868" height="768" alt="image" src="https://github.com/user-attachments/assets/69d7835f-5b3e-4c2e-9190-fdbce247fe7c" />
+![pin_diagram](https://github.com/user-attachments/assets/b59cad07-57a5-4e75-a8fa-95a17c7d9681)
 
 # HFD2201KBA Findings
 
