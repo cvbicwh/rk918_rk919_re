@@ -6,6 +6,9 @@ Currently work in progress. The firmwares *should* work on both the RK918 and RK
 
 There seems to be two variants of the RK918 and RK919. The initial variant uses the HFD2201KBA (a rebranded SN32F248B, which I'm referring to as Rev 1), whereas a another variant uses the HFD1101KBA (a rebranded SN32F248 non-B, Rev 2). Since the product strings between these two variants are 1:1, Both updaters can cause a complication with each other, as the updater only throws a firmware at a device and hopes it sticks. The primary method to identify your MCU is either by disassembling the keyboard or by reading the model number and PCB date underneath the space bar.
 
+![rev1_rev2](https://github.com/user-attachments/assets/e1a39c6c-0770-4e64-b656-186737c9461b)
+
+
 Although both variants feature unbrickable ROM-based bootloaders, discretion is strongly advised when flashing. The stock firmware has been extracted for both revisions. Since I don't have a Rev2 board, I cannot verify any of the behaviors from this board, and was recently notified about the latter variant.
 
 If there's any other variants of the RK918/919 that aren't listed below, please create an issue and I would be glad to add them!
@@ -60,11 +63,35 @@ Moreover, the bootloader is practically unbrickable, as it resides in ROM. Even 
 
 # Images of PCB
 
-[https://ibb.co/GfDd4f1n](https://ibb.co/GfDd4f1n)
-[https://ibb.co/tT8X5P7T](https://ibb.co/tT8X5P7T)
-[https://ibb.co/BH79hwHS](https://ibb.co/BH79hwHS)
-[https://ibb.co/vCmW1RzJ](https://ibb.co/vCmW1RzJ)
-[https://ibb.co/8nrsK4jQ](https://ibb.co/8nrsK4jQ)
+(Rev 1) *Better images coming soon*
+
+[MCU](https://ibb.co/GfDd4f1n)
+
+[LED driver](https://ibb.co/tT8X5P7T)
+
+[PCB 1](https://ibb.co/BH79hwHS)
+
+[PCB 2](https://ibb.co/vCmW1RzJ)
+
+[PCB 3](https://ibb.co/8nrsK4jQ)
+
+(Rev 2) *Credits to u/Crimnz on reddit for these images and notifying me about this new variant!*
+
+[MCU](https://ibb.co/7NKQHjYR)
+
+[MCU close-up](https://ibb.co/7tPYWcnF)
+
+[LED driver](https://ibb.co/dwxxLPg7)
+
+[PCB 1](https://ibb.co/RfRwpt3)
+
+[PCB 2](https://ibb.co/twFGjV5c)
+
+[PCB 3](https://ibb.co/5gvKQhpH)
+
+[PCB 4](https://ibb.co/Z1dKF6rt)
+
+[PCB 5](https://ibb.co/670mdw47)
 
 # Extracting Stock Firmware
 
