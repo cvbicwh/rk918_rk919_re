@@ -2,9 +2,11 @@
 
 Currently work in progress. The firmwares *should* work on both the RK918 and RK919, as they share the same exact PCB and MCU.
 
+<img width="1454" height="451" alt="image" src="https://github.com/user-attachments/assets/0b84e9c2-216b-4b38-a456-f09f2c1aaa8d" />
+
 # NOTICE
 
-There seems to be two variants of the RK918 and RK919. The initial variant uses the HFD2201KBA (a rebranded SN32F248B, which I'm referring to as Rev 1), whereas a another variant uses the HFD1101KBA (a rebranded SN32F248 non-B, Rev 2). Since the product strings between these two variants are 1:1, Both updaters can cause a complication with each other, as the updater only throws a firmware at a device and hopes it sticks. The primary method to identify your MCU is either by disassembling the keyboard or by reading the model number and PCB date underneath the space bar.
+There seems to be two variants of the RK918 and RK919. The initial variant uses the HFD2201KBA (a rebranded SN32F248B, which I'm referring to as Rev 1), whereas another variant uses the HFD1101KBA (a rebranded SN32F248 non-B, Rev 2). Since the product strings between these two variants are 1:1, Both updaters can cause a complication with each other, as the updater only throws a firmware at a device and hopes it sticks. The primary method to identify your MCU is either by disassembling the keyboard or by reading the model number and PCB date underneath the space bar.
 
 ![rev1_rev2](https://github.com/user-attachments/assets/e1a39c6c-0770-4e64-b656-186737c9461b)
 
