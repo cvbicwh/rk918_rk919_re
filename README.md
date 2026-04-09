@@ -108,7 +108,7 @@ Moreover, the bootloader is practically unbrickable, as it resides in ROM. Even 
 # Flashing with Stock Firmware
 
 1. Download the SONiX USB MCU ISP Tool
-2. Place the device into bootloader mode (Sonix Flasher's **Reboot to Bootloader (HFD)** command can be used)
+2. Place the device into bootloader mode (You can either short the holes on PCB or use the `RK918_RK919_RebootToBootloader.exe`)
 3. Open the program and load the previously extracted firmware `.bin`
 4. Select **SN32F24xB** as the target MCU (`flashing protocol for 24xB and 24x seems to be identical`)
 5. The VID defaults to `0c45`. When in bootloader, the PID may enumerate as `8006` or `7040` (Rev 2 enumerates as `7900`, and typically `8006` when entering bootloader from normal mode)
