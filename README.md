@@ -1,8 +1,8 @@
 # Royal Kludge RK919/RK918 Reverse Engineering
 
-Currently work in progress. The firmwares *should* work on both the RK918 and RK919, as they share the same exact PCB and MCU.
-
 <img width="1454" height="451" alt="image" src="https://github.com/user-attachments/assets/0b84e9c2-216b-4b38-a456-f09f2c1aaa8d" />
+
+Currently work in progress. The firmwares *should* work on both the RK918 and RK919, as they share the same exact PCB and MCU.
 
 # NOTICE
 
