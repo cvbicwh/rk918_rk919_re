@@ -60,7 +60,8 @@ The RK918 Rev1 will enumerate as `SN32F248B (bootloader)` within Sonix Keyboard 
 
 Moreover, the bootloader is practically unbrickable, as it resides in ROM. Even if you flash an incompatible firmware on the board, the keyboard will still receive power, albeit without enumerating a VID/PID depending on the current firmware.
 
-[https://ibb.co/B2yBmkh8](https://ibb.co/B2yBmkh8)
+[Rev 1](https://ibb.co/B2yBmkh8)
+[Rev 2](https://ibb.co/mrtqd9yS)
 
 # Images of PCB
 
