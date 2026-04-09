@@ -10,8 +10,7 @@ There seems to be two variants of the RK918 and RK919. The initial variant uses 
 
 ![rev1_rev2](https://github.com/user-attachments/assets/e1a39c6c-0770-4e64-b656-186737c9461b)
 
-
-Although both variants feature unbrickable ROM-based bootloaders, discretion is strongly advised when flashing. The stock firmware has been extracted for both revisions. Since I don't have a Rev2 board, I cannot verify any of the behaviors from this board, and was recently notified about the latter variant.
+Although both variants feature unbrickable ROM-based bootloaders, discretion is strongly advised when flashing. The stock firmware has been extracted for both revisions. Since I don't have a Rev2 board, I cannot verify any of the behaviors from this board, and was recently notified about the latter variant. If any of the boards were ever to be unplugged in the middle of an update, it would be stuck be in bootloader mode instead of causing a brick, given the ROM-based bootloader.
 
 If there's any other variants of the RK918/919 that aren't listed below, please create an issue and I would be glad to add them!
 
