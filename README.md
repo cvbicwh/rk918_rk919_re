@@ -54,29 +54,35 @@ The RK919/RK918 Rev 2 uses  a Huafenda HFD**1101**KBA microcontroller, rebranded
 
 Below the HFD2201KBA MCU, two testing vias are marked in white. Bridging these vias with a conductive material (such as a metal paperclip) while plugging it in skips the app firmware and forces it into bootloader mode.
 
-*For Rev2, there seems to be one hole instead of two, though they're both in the same location.*
+*For Rev2, there seems to be one hole instead of two, though they're both in the same location. This hasn't been tested out if it works or not, as the user's Rev 2 was already in its bootloader mode.*
 
 The RK918 Rev1 will enumerate as `SN32F248B (bootloader)` within Sonix Keyboard Flasher. For the Rev2 variant, it may appear as as `SN32F248 (bootloader)`. You can use this as a last resort option if the firmware on the keyboard doesn't work with any of the tools provided.
 
 Moreover, the bootloader is practically unbrickable, as it resides in ROM. Even if you flash an incompatible firmware on the board, the keyboard will still receive power, albeit without enumerating a VID/PID depending on the current firmware.
 
-[Rev 1](https://ibb.co/B2yBmkh8)
+[Rev 1](https://ibb.co/BVDkyT92)
 
 [Rev 2](https://ibb.co/mrtqd9yS)
 
 # Images of PCB
 
-(Rev 1) *Better images coming soon*
+(Rev 1)
 
-[MCU](https://ibb.co/GfDd4f1n)
+[Full PCB](https://ibb.co/bjnwwGN6)
 
-[LED driver](https://ibb.co/tT8X5P7T)
+[MCU](https://ibb.co/LdJKJqjt)
 
-[PCB 1](https://ibb.co/BH79hwHS)
+[LED Driver](https://ibb.co/fJ0WHDT)
 
-[PCB 2](https://ibb.co/vCmW1RzJ)
+[PCB Left Side](https://ibb.co/8gd1zrHg)
 
-[PCB 3](https://ibb.co/8nrsK4jQ)
+[PCB Middle](https://ibb.co/TMw9WTxsZ)
+
+[PCB Right Side](https://ibb.co/TBP7yRSp)
+
+[PCB Silkscreen](https://ibb.co/k2g3RMzj)
+
+[JST Connector](https://ibb.co/fzcrHby8)
 
 (Rev 2) *Credits to u/Crimnz on reddit for these images and notifying me about this new variant!*
 
@@ -109,10 +115,11 @@ Moreover, the bootloader is practically unbrickable, as it resides in ROM. Even 
 # Flashing with Stock Firmware
 
 1. Download the SONiX USB MCU ISP Tool
-2. Place the device into bootloader mode (You can either short the holes on PCB or use the `RK918_RK919_RebootToBootloader.exe`)
+2. Place the device into bootloader mode (You can either pull the vias low on PCB or use the `RK918_RK919_RebootToBootloader.exe`)
 3. Open the program and load the previously extracted firmware `.bin`
 4. Select **SN32F24xB** as the target MCU (`flashing protocol for 24xB and 24x seems to be identical`)
 5. The VID defaults to `0c45`. When in bootloader, the PID may enumerate as `8006` or `7040` (Rev 2 enumerates as `7900`, and typically `8006` when entering bootloader from normal mode)
 6. Adjust the PID according to the enumeration displayed in Device Manager/UsbTreeView
 7. Click **Start**
 8. The flashing will start
+9. The updater should reboot your device automatically.
