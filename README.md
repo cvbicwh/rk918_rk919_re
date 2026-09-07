@@ -86,6 +86,8 @@ Moreover, the bootloader is practically unbrickable, as it resides in ROM. Even 
 
 (Rev 2) *Credits to u/Crimnz on reddit for these images and notifying me about this new variant!*
 
+[Full PCB](https://ibb.co/ZRvWrHk6)
+
 [MCU](https://ibb.co/7NKQHjYR)
 
 [MCU close-up](https://ibb.co/7tPYWcnF)
